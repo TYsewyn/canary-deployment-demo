@@ -35,5 +35,6 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('io.micrometer:micrometer-registry-prometheus')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }

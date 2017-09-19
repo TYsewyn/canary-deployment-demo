@@ -1,0 +1,3 @@
+endpoints:
+  metrics.web.enabled: true
+  prometheus.web.enabled: true
